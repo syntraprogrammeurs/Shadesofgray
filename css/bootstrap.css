@@ -7518,3 +7518,27 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bg-shades1 {
   overflow: hidden; }
+
+#slider-content {
+  top: 50%;
+  right: 10%;
+  width: 75%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%); }
+
+#slider-content h1 {
+  font-size: 1rem; }
+
+/**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
+@media (min-width: 992px) {
+  .d-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; }
+  #slider-content {
+    width: 36%; }
+  #slider-content h1 {
+    font-size: 2.5rem; } }
