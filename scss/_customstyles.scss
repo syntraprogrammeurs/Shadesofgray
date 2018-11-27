@@ -48,8 +48,15 @@
 #slider-content h1{
   font-size:1rem;
 }
-#img-slider{
-
+.icondesign{
+  border-radius:50%;
+  background:#555;
+  padding:15px;
+  transform: translateY(-50%);
+  border: 5px solid white;
+}
+.articlebg{
+  background:#f5f5f5;
 }
 
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
