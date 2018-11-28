@@ -1,5 +1,9 @@
 /***DIT IS MIJN EIGEN CSS BESTAND**/
 /**MOBILE FIRST**/
+p{
+  color:#999;
+}
+
 .kenburns-top-right {
   -webkit-animation: kenburns-top-right 5s ease-out both;
   animation: kenburns-top-right 5s ease-out both;
@@ -58,7 +62,23 @@
 .articlebg{
   background:#f5f5f5;
 }
-
+.h2chooseus{
+  text-shadow: 2px 2px 2px grey;
+}
+#chooseus .articlebg{
+  padding: 0px 4%;
+}
+.h2h3color-b{
+  color: #777;
+  font-size: 1.2rem;
+}
+.bgicons{
+  background: white;
+  padding: 10px;
+}
+.bgicons:hover{
+  color:#3baafe;
+}
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @include media-breakpoint-up(sm) {  }
 @include media-breakpoint-up(md) {  }
@@ -76,6 +96,29 @@
   }
   #slider-content h1{
     font-size:2.5rem;
+  }
+.bg-chooseus{
+  background:url('../assets/images/zonnebloemen.jpg');
+}
+  .chooseus-h3-p{
+    width:70%;
+  }
+  .box{
+    position:relative;
+  }
+  .box i{
+    position:absolute;
+    top:50%;
+    transform:translate(0,-50%);
+  }
+  .h2choosesus{
+    position:relative;
+  }
+  .h2chooseus:after{
+    position: absolute;
+    top: 60px;
+    left: 260px;
+    content: '_____';
   }
 }
 
