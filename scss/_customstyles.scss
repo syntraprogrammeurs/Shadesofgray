@@ -85,6 +85,11 @@ p{
   border-radius:50%;
   background:#555;
 }
+
+
+.howwework-content{
+  background:#ebebeb;
+}
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @include media-breakpoint-up(sm) {  }
 @include media-breakpoint-up(md) {  }
@@ -125,6 +130,10 @@ p{
     top: 60px;
     left: 260px;
     content: '_____';
+  }
+  #howwework{
+    background:url('../assets/images/howweworkbg.jpg') no-repeat;
+    background:cover;
   }
 }
 

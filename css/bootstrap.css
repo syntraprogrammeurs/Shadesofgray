@@ -7568,6 +7568,9 @@ p {
   border-radius: 50%;
   background: #555; }
 
+.howwework-content {
+  background: #ebebeb; }
+
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @media (min-width: 992px) {
   .d-fixed-top {
@@ -7598,4 +7601,7 @@ p {
     position: absolute;
     top: 60px;
     left: 260px;
-    content: '_____'; } }
+    content: '_____'; }
+  #howwework {
+    background: url("../assets/images/howweworkbg.jpg") no-repeat;
+    background: cover; } }
