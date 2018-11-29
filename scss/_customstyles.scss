@@ -79,6 +79,12 @@ p{
 .bgicons:hover{
   color:#3baafe;
 }
+.whatwedo-bol{
+  line-height:45px !important;
+  width:45px;
+  border-radius:50%;
+  background:#555;
+}
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @include media-breakpoint-up(sm) {  }
 @include media-breakpoint-up(md) {  }
