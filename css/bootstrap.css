@@ -7568,11 +7568,19 @@ p {
   border-radius: 50%;
   background: #555; }
 
-#howwework {
-  padding: 200px 0px; }
-
 .howwework-content {
   background: #ebebeb; }
+
+/*
+.naamfunctie{
+  position: absolute;
+  top: 46%;
+  left: 14%;
+}*/
+.personage {
+  background: #7a7878;
+  padding: 5% 16%;
+  border: 5px solid #e6e6e6; }
 
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @media (min-width: 992px) {
@@ -7607,10 +7615,69 @@ p {
     content: '_____'; }
   #howwework {
     background: url("../assets/images/howweworkbg.jpg") no-repeat;
-    background-size: 100% 100%; }
+    background-size: 100% 100%;
+    padding: 200px 0px; }
   @-webkit-keyframes slide {
     100% {
       left: 0; } }
   @keyframes slide {
     100% {
-      left: 0; } } }
+      left: 0; } }
+  .teamsocial {
+    position: absolute;
+    top: 0;
+    z-index: 3; }
+  .titel {
+    width: 250px;
+    position: absolute;
+    top: 25%;
+    z-index: 1; }
+  .naam {
+    padding: 10px 40px 30px 40px;
+    background: #fff;
+    -webkit-transform: skewX(-23deg);
+    -ms-transform: skewX(-23deg);
+    transform: skewX(-23deg);
+    -webkit-box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px grey; }
+  .functie {
+    background: grey;
+    -webkit-transform: skewX(-25deg) translateY(-98%) translateX(-25%);
+    -ms-transform: skewX(-25deg) translateY(-98%) translateX(-25%);
+    transform: skewX(-25deg) translateY(-98%) translateX(-25%);
+    padding: 3% 0%; }
+  .personage-tekst {
+    -webkit-transform: translateY(135%);
+    -ms-transform: translateY(135%);
+    transform: translateY(135%); }
+  .personage {
+    -webkit-transform: translateY(-8%);
+    -ms-transform: translateY(-8%);
+    transform: translateY(-8%); }
+  .colheight {
+    height: 800px; }
+  .colstyle {
+    background: #f5f5f5;
+    margin-bottom: 50px;
+    border-right: 40px solid white; }
+  .slide-in-left {
+    -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+  @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+      opacity: 0; }
+    100% {
+      -webkit-transform: translateX(95%);
+      transform: translateX(95%);
+      opacity: 1; } }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+      opacity: 0; }
+    100% {
+      -webkit-transform: translateX(95%);
+      transform: translateX(95%);
+      opacity: 1; } } }
