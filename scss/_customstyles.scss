@@ -3,11 +3,9 @@
 p{
   color:#999;
 }
-
 .kenburns-top-right {
   -webkit-animation: kenburns-top-right 5s ease-out both;
   animation: kenburns-top-right 5s ease-out both;
-
 }
 
 @-webkit-keyframes kenburns-top-right {
@@ -89,20 +87,13 @@ p{
 .howwework-content{
   background:#ebebeb;
 }
-#naam,#functie{
 
-}
-/*
-.naamfunctie{
-  position: absolute;
-  top: 46%;
-  left: 14%;
-}*/
-.personage{
-  background: #7a7878;
-  padding: 5% 16%;
-  border: 5px solid #e6e6e6;
-}
+
+
+
+
+
+
 
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @include media-breakpoint-up(sm) {  }
@@ -150,7 +141,7 @@ p{
     background-size: 100% 100%;
     padding: 200px 0px;
   }
- 
+
 
 
   @-webkit-keyframes slide {
@@ -163,78 +154,95 @@ p{
     100% { left: 0;  }
   }
 
-  .teamsocial{
-    position:absolute;
-    top:0;
-    z-index:3
-  }
 
-  .titel{
-    width:250px;
-    position:absolute;
-    top:25%;
-    z-index:1;
-  }
-  .naam{
-    padding:10px 40px 30px 40px;
-    background:#fff;
-    transform:skewX(-23deg);
-    box-shadow:2px 2px 2px grey;
-
-  }
-  .functie{
-    background: grey;
-    transform: skewX(-25deg) translateY(-98%) translateX(-25%);
-    padding: 3% 0%;
-  }
-  .personage-tekst{
-    transform:translateY(135%);
-  }
-  .personage{
-    transform: translateY(-8%);
-  }
-  .colheight{
-    height:800px;
-  }
-  .colstyle{
-    background: #f5f5f5;
-    margin-bottom: 50px;
-    border-right: 40px solid white;
-  }
-  .slide-in-left{
-    -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  .slide-in-left2{
+    -webkit-animation: slide-in-left2 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left2 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
 
 
-  @-webkit-keyframes slide-in-left {
+  @-webkit-keyframes slide-in-left2 {
     0% {
       -webkit-transform: translateX(0px);
       transform: translateX(0px);
       opacity: 0;
     }
     100% {
-      -webkit-transform: translateX(95%);
-      transform: translateX(95%);
+      -webkit-transform: translateX(170%);
+      transform: translateX(170%);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left2 {
+    0% {
+      -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(170%);
+      transform: translateX(170%);
+      opacity: 1;
+    }
+  }
+
+
+
+  .slide-in-left {
+    -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(80%);
+      transform: translateX(80%);
       opacity: 1;
     }
   }
   @keyframes slide-in-left {
     0% {
-      -webkit-transform: translateX(0px);
-      transform: translateX(0px);
+      -webkit-transform: translateX(-1000px);
+      transform: translateX(-1000px);
       opacity: 0;
     }
     100% {
-      -webkit-transform: translateX(95%);
-      transform: translateX(95%);
+      -webkit-transform: translateX(80%);
+      transform: translateX(80%);
       opacity: 1;
     }
   }
-
-
-
+  /*meet our team**/
+  .wrappercontent{
+    background:#f5f5f5;
+  }
+  .foto{
+    border: 5px solid #e6e6e6;
+    background: #7a7878;
+    margin-top:-45%;
+  }
+  .naam{
+    transform:skewX(-15deg);
+    background:#fff;
+  }
+  .functie{
+    transform:skewX(-20deg);
+    background: darkgrey;
+    width: 85%;
+    margin-top:-8%;
+  }
+  .naam > p{
+    transform:skewX(15deg);
+  }
+  .functie > p{
+    transform:skewX(20deg);
+  }
 }
 
 @include media-breakpoint-up(xl) {  }
