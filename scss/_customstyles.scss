@@ -87,12 +87,32 @@ p{
 .howwework-content{
   background:#ebebeb;
 }
+.pijltje{
+  height:37px;
+}
 
+#qualityofyourwork{
+  background:#eee;
+}
+#qualityofyourwork h2{
+  text-shadow:2px 2px 2px grey;
+}
+.bgquality{
+  background:#eee;
+  transform:skewX(-15deg);
+}
+.bggrijs{
+  background: #fafafa;
+  overflow: hidden;
+}
+.skewback{
+  transform:skewX(15deg);
+}
 
-
-
-
-
+.overflowrechts{
+  transform:skewX(15deg);
+  background:#eee;
+}
 
 
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/

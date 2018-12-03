@@ -7571,6 +7571,36 @@ p {
 .howwework-content {
   background: #ebebeb; }
 
+.pijltje {
+  height: 37px; }
+
+#qualityofyourwork {
+  background: #eee; }
+
+#qualityofyourwork h2 {
+  text-shadow: 2px 2px 2px grey; }
+
+.bgquality {
+  background: #eee;
+  -webkit-transform: skewX(-15deg);
+  -ms-transform: skewX(-15deg);
+  transform: skewX(-15deg); }
+
+.bggrijs {
+  background: #fafafa;
+  overflow: hidden; }
+
+.skewback {
+  -webkit-transform: skewX(15deg);
+  -ms-transform: skewX(15deg);
+  transform: skewX(15deg); }
+
+.overflowrechts {
+  -webkit-transform: skewX(15deg);
+  -ms-transform: skewX(15deg);
+  transform: skewX(15deg);
+  background: #eee; }
+
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @media (min-width: 992px) {
   .d-fixed-top {
