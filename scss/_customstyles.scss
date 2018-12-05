@@ -124,6 +124,27 @@ a#scrollUp {
   -webkit-animation: bounce 2s ease infinite;
   animation: bounce 2s ease infinite;
 }
+.nav-link {
+  color: #7a7878;
+  background-color: #f5f5f5;
+}
+
+.absolute-center{
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+}
+
+.hovereffect{
+  left:-9999px;
+}
+.toonicons:hover .hovereffect{
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1.2);
+  transition-duration: 0.5s;
+  left: 50%;
+}
+
 
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @include media-breakpoint-up(sm) {  }
