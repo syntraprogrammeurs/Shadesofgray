@@ -7636,6 +7636,16 @@ a#scrollUp {
   transition-duration: 0.5s;
   left: 50%; }
 
+.bgenvironment {
+  background: url("../assets/images/howweworkbg.png") no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.environment-content {
+  background: #313030; }
+
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @media (min-width: 992px) {
   .d-fixed-top {
