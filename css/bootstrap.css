@@ -7646,6 +7646,13 @@ a#scrollUp {
 .environment-content {
   background: #313030; }
 
+/**slider*/
+.borderwrapper {
+  background: #f5f5f5; }
+
+.card {
+  border: none; }
+
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @media (min-width: 992px) {
   .d-fixed-top {
