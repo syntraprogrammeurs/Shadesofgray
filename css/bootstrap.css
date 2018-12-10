@@ -4,6 +4,17 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.foo-parent {
+  position: relative; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7652,6 +7663,14 @@ a#scrollUp {
 .card {
   border: none; }
 
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @media (min-width: 992px) {
   .d-fixed-top {
@@ -7761,4 +7780,13 @@ a#scrollUp {
   .functie > p {
     -webkit-transform: skewX(20deg);
     -ms-transform: skewX(20deg);
-    transform: skewX(20deg); } }
+    transform: skewX(20deg); }
+  .carousellinks {
+    max-height: 430px;
+    height: 100%; }
+  .bloglorem {
+    width: 55%; }
+  .blogimgcarousel {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 45%; } }

@@ -163,6 +163,12 @@ a#scrollUp {
   border:none;
 }
 
+.box {
+  @include center(both);
+}
+
+
+
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
 @include media-breakpoint-up(sm) {  }
 @include media-breakpoint-up(md) {  }
@@ -310,6 +316,22 @@ a#scrollUp {
   }
   .functie > p{
     transform:skewX(20deg);
+  }
+
+  .carousellinks{
+    max-height:430px;
+    height:100%;
+  }
+
+
+  .bloglorem{
+    width:55%;
+  }
+
+  .blogimgcarousel{
+    object-fit:cover;
+    width:45%;
+
   }
 }
 
