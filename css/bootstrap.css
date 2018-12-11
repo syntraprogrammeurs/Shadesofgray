@@ -7656,6 +7656,16 @@ a#scrollUp {
 .environment-content {
   background: #313030; }
 
+#mijnBackground {
+  background-image: url("../assets/images/howweworkbg.png");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -5; }
+
 /**slider*/
 .borderwrapper {
   background: #f5f5f5; }
