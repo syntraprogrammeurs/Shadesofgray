@@ -176,7 +176,20 @@ a#scrollUp {
 .box {
   @include center(both);
 }
+.cardprice{
+  background:#f5f5f5;
+}
+.cardprice:hover{
+transform:scale(1.2);
+  transition-duration: 2s;
+}
+.btnprice{
+  background:#e6e6e6;
+}
+.btnprice:hover{
+  background:#3baafe;
 
+}
 
 
 /**MEDIAQUERIES (ALLES WAT GROTER IS DAN MOBILE**/
@@ -332,7 +345,6 @@ a#scrollUp {
     max-height:430px;
     height:100%;
   }
-
 
   .bloglorem{
     width:55%;
